@@ -1,0 +1,97 @@
+* {
+    
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+   
+}
+
+body {
+
+    background-image:  url(../img/TN-ILoveYou_BACKGROUND.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+
+}
+
+@font-face {
+ 
+    font-family: "Helvetica";
+    src: url("Helvetica\ Neue\ Medium\ Extended.otf"); 
+
+}
+
+#container {
+    
+    margin-top: 80px;
+    color: rgb(255, 255, 255);
+    font-family: Helvetica;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+
+}
+
+
+.bio {
+  
+    margin-top: 40px;
+    font-size: 17px ;
+    color: rgb(255, 255, 255);  
+    text-align: center;
+}
+
+.ytb {
+
+    margin-top: 40px;
+    width:500px;
+    height:350px;
+    border-radius: 12px;
+}
+
+.chip {
+    
+    margin:auto;
+    margin-top: 40px;
+    font-size: 17px;
+
+}
+
+.fallen-star {
+
+    width: 100px;
+    height: 100px;
+    
+    
+}
+
+.bio-link {
+
+    color:#fff;
+    font-size: 16px;
+}
+
+
+#see-more {
+    
+    font-size: 14px;
+    margin-top:8px;
+    margin-bottom:8px;
+    color:rgb(116, 110, 110);
+    transition: color 0.2s;
+}
+
+
+#see-more:hover {
+
+    color: #fff;
+
+
+}

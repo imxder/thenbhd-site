@@ -1,0 +1,47 @@
+#header {
+    background-color: black;
+    width: 100vw;
+    height: 55px;
+    top: 0;
+    position: fixed;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+    color: white;
+    font-family: helvetica, arial, sans-serif;
+
+    padding: 0px 10px 0px 10px;
+
+}
+
+#header-title {
+    
+    font-weight: 400;
+    font-size: 20px;
+    cursor: default;
+    width: 500px;
+}
+
+.nav-link {
+    
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+    margin: 0px px;
+      
+}
+
+.nav-link:hover {
+    
+    opacity: 0.8;
+
+}
+
+#header-nav {
+   
+    width: 400px;
+
+}

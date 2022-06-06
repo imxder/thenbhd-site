@@ -1,0 +1,86 @@
+.main-footer {
+    
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 15px;
+    bottom: 0;
+    
+  
+}
+.main-footer .logo {
+    margin-top: 15px;
+    margin-bottom:15px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.main-footer .title {
+
+    color: white;
+    font-size: 10px;
+    font-family: helvetica, arial, sans-serif;
+    text-align: center;
+
+}
+
+.main-footer .follow-us{
+
+    margin-top: 15px;;
+    color: white;
+    font-size: 15px;
+    font-family: helvetica, arial, sans-serif;
+}
+
+#icons {
+
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main-footer .social-icon {
+    
+    text-decoration-line: none ;
+    color: white;
+    transition: color 0.2s;
+    margin: 2px;
+    font: size 22px;
+    width:22px;
+    height: 22px;
+}
+
+.main-footer .social-icon:hover {
+    
+    color: #b9b9b9;
+   
+}
+
+a {
+
+    text-decoration:none;
+}
+
+.merch {
+    
+    margin-top: 15px;
+    color: white;
+    transition: color 0.2s;
+    font-size: 15px;
+    font-family: helvetica, arial, sans-serif;
+
+}
+
+.merch:hover {
+
+    color: #b9b9b9;
+
+}
